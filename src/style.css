@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F7FB;
+}
+.container{
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+   
+}
+.gameTitle{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 31.25px;
+    text-align: center;
+    color: #293264;
+}
+.gameDescription{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #293264;
+}
+.formLabel{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #293264;
+    background-color: #F5F7FB;
+}
+.formInput{
+    border:none;
+    border-bottom: 1px solid  #4D5B9E;
+    color: black;
+    text-align:center;
+    background-color: #F5F7FB;
+}
+.formInput:focus {
+    outline: none;
+  }
+
+.beingButton{
+    margin-top: 2em;
+    width: 8em;
+    height: 2em;
+    background-color: #4D5B9E;
+    border: 2px solid #4D5B9E;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color:  #F5F7FB ;
+    cursor: pointer;
+}
+
+.questionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8em;
+}
+.questionHeader{
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #465084;
+}
+.question{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #293264;
+    text-align: center;
+    margin-bottom: 0;
+}
+.asnwersContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 1em ;
+    border-bottom: 0.794239px solid #293264;
+   
+}
+.answers{
+    padding: 0.8em 0.5em;
+    font-family: 'karla', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #4D5B9E;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;  
+    list-style-type:none; 
+    text-align: center;
+}
+
+.answers:hover{
+    cursor: pointer;
+    background-color: #D6DBF5;
+    color: #293264;
+}
+.selectedStyle{
+    padding: 0.8em 0.5em;
+    font-family: 'karla', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;  
+    list-style-type:none; 
+    text-align: center;
+    background-color: #D6DBF5;
+    color: #293264;
+}
+
+.selectedStyle:hover{
+    cursor: pointer;
+    background-color: #D6DBF5;
+    color: #293264;
+}
+.checkButton{
+    width: 120px;
+    height:35px;
+    background: #4D5B9E;
+    border-radius: 10px; 
+    border: 0.5em solid #4D5B9E;
+    color: #F5F7FB;   
+    cursor: pointer;
+}
+.checkButton:hover{
+   color: #293264;
+}
+
+.correctAsnwersContainer{
+    display: none;
+}
